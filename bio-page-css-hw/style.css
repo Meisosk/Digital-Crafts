@@ -1,0 +1,48 @@
+body {
+    background-image: url(newbackground.jpg);
+    background-size: 100%;
+}
+
+.container{
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+    border: solid white;
+    color: lightblue;
+    font-family: 'Dosis', sans-serif;
+    padding-bottom: 30px;
+    overflow:auto;
+}
+
+p {
+    font-size: 25px;
+
+}
+
+img{
+    position: relative;
+    height: 250px;
+    float: right;
+    border: 5px solid rgb(236, 159, 42);
+
+}
+
+a {
+    color: #f6cc49;
+    text-decoration: none;
+
+}
+
+button {
+    background-color: #554ddd;
+    border: none;
+    border-radius: 11px;
+    height: 45px;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+
+button:hover{
+    background-color: #5f57fc;
+}
